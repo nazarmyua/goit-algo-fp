@@ -62,7 +62,9 @@ def main():
 
     print(nums)
 
-    dfs(root)
+    # dfs(root)
+
+    bfs(root)
 
     # # Відображення дерева
     draw_tree(root)

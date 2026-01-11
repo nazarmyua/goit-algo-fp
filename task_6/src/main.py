@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-from .models.item import Item
+from models.item import Item
 
 
 def greedy_algorithm(items: List[Item], budget: int) -> Tuple[List[Item], int, int]:
